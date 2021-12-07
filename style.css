@@ -1,43 +1,43 @@
 #clock {
-    color: #000;
-    font-weight: bold;
-    font-size: 1000px;
-    width: 500px;
-    height: 300px;
-    background: green;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 100px;
-  }
+  color: #000;
+  font-weight: bold;
+  font-size: 1000px;
+  width: 500px;
+  height: 300px;
+  background: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 100px;
+}
 
-  #dotsOne {
-    padding-bottom: 25px;
-  }
+#dotsOne {
+  padding-bottom: 25px;
+}
 
-  #dotsSecond {
-    padding-bottom: 25px;
-  }
+#dotsSecond {
+  padding-bottom: 25px;
+}
 
-  .displayDots {
-    display: none;
-  }
+.displayDots {
+  display: none;
+}
 
-  .displaySeconds {
-    display: none;
-  }
-  
+.displaySeconds {
+  display: none;
+}
+
 
 #btn {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: aqua;
-  border: none;
-  cursor: pointer;
-  font-size: 25px;
+margin-top: 30px;
+padding: 20px;
+background-color: aqua;
+border: none;
+cursor: pointer;
+font-size: 25px;
 }
 
 #btn:hover {
-  background-color: green;
-  color: white;
+background-color: green;
+color: white;
 }

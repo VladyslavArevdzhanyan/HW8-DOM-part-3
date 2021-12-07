@@ -2,6 +2,7 @@
 function rangeNumbers(a, b) {
     if (a === b) {
         console.log(a);
+        return;
     } else if (a < b) {
         console.log(a);
         a += 1;
@@ -16,6 +17,7 @@ rangeNumbers(1, 13);
 
 
 //Задание № 2
+
 let hoursBlock = document.getElementById('hours');
 let minutesBlock = document.getElementById('minutes');
 let secondsBlock = document.getElementById('seconds');
